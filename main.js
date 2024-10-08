@@ -74,7 +74,7 @@ const addTask = (taskContent) => {
     newTask.classList.remove("is-dragging");
   });
 
-  todoLane.appendChild(newTask);x
+  todoLane.appendChild(newTask);
 };
 
 // Lưu tất cả các task trong lane "TODO" vào localStorage
