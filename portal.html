@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Tài Chính của 2 đứa</title>
+    <link rel="stylesheet" href="main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- <--navbar start-->
+     <div class="sidebar">
+    <div class="logo-details">
+        <i class='bx bxl-c-plus-plus icon'></i>
+        <div class="logo_name">CodingLab</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+        <li>
+            <a href="#">
+                <i class='bx bx-grid-alt'></i>
+                <span class="links_name">Dashboard</span>
+            </a>
+            <span class="tooltip">Dashboard</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bx-user' ></i>
+                <span class="links_name">User</span>
+            </a>
+            <span class="tooltip">User</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bx-chat' ></i>
+                <span class="links_name">Messages</span>
+            </a>
+            <span class="tooltip">Messages</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bx-pie-chart-alt-2' ></i>
+                <span class="links_name">Analytics</span>
+            </a>
+            <span class="tooltip">Analytics</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bx-folder' ></i>
+                <span class="links_name">File Manager</span>
+            </a>
+            <span class="tooltip">Files</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bx-cart-alt' ></i>
+                <span class="links_name">Order</span>
+            </a>
+            <span class="tooltip">Order</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bx-heart' ></i>
+                <span class="links_name">Saved</span>
+            </a>
+            <span class="tooltip">Saved</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bx-cog' ></i>
+                <span class="links_name">Setting</span>
+            </a>
+            <span class="tooltip">Setting</span>
+        </li>
+    </ul>
+</div>
+
+    <!-- <--navbar end--> 
+    <header>
+        <nav>
+            <div class="logo">QUẢN LÝ TÀI CHÍNH</div>
+            <ul>
+                <li><a href="#">Phương Pháp</a></li>
+                <li><a href="#">Tổng tài sản</a></li>
+                <li><a href="#">Ghi chú</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Xin chào">
+                <button><i class='bx bx-search'></i></button>
+            </div>
+            <div class="user-actions">
+                <a href="#" class="account">Account</a>
+                <i class='bx bx-user'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="banner-content">
+                <button>Buy Now</button>
+            </div>
+        </section>
+    </main>
+
+    <div class="board">
+        <form id="todo-form">
+          <input type="text" placeholder="New TODO..." id="todo-input" />
+          <button type="submit">Add +</button>
+        </form>
+  
+        <div class="lanes">
+          <div class="swim-lane" id="todo-lane">
+            <h3 class="heading">TODO</h3>
+          </div>
+  
+          <div class="swim-lane">
+            <h3 class="heading">Doing</h3>
+
+          </div>
+  
+          <div class="swim-lane">
+            <h3 class="heading">Done</h3>
+  
+          </div>
+        </div>
+    </div>
+       
+    <script src="main.js"></script>
+</body>
+</html>
